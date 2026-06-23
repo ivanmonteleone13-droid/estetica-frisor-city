@@ -16,7 +16,7 @@ export const business = {
   bookingUrl: "https://www.bokadirekt.se/places/estetica-frisor-city-132383",
   bookingLabel: "Boka på Bokadirekt",
   websiteUrl: "https://www.esteticafrisor.se/" as string | null,
-  logoImage: null as string | null,
+  logoImage: "/images/logo.jpg" as string | null,
   heroImage: "/images/hero.jpg",
   aboutImage: "/images/gallery-3.jpg",
   facebookUrl: "https://www.facebook.com/esteticafrisor" as string | null,
