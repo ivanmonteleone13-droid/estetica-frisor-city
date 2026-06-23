@@ -16,6 +16,7 @@ export const business = {
   bookingUrl: "https://www.bokadirekt.se/places/estetica-frisor-city-132383",
   bookingLabel: "Boka på Bokadirekt",
   websiteUrl: "https://www.esteticafrisor.se/" as string | null,
+  logoImage: null as string | null,
   heroImage: "/images/hero.jpg",
   aboutImage: "/images/gallery-3.jpg",
   facebookUrl: "https://www.facebook.com/esteticafrisor" as string | null,
@@ -68,7 +69,7 @@ export const business = {
       icon: "✂️",
       description: "Professionell klippning med fokus på kvalitet och kundnöjdhet.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 710,
       note: "Kontakta oss för aktuella priser.",
     },
     {
@@ -77,7 +78,7 @@ export const business = {
       icon: "💇",
       description: "Professionell färgning och slingor med fokus på kvalitet och kundnöjdhet.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 2750,
       note: "Kontakta oss för aktuella priser.",
     },
     {
@@ -86,7 +87,7 @@ export const business = {
       icon: "⭐",
       description: "Professionell balayage med fokus på kvalitet och kundnöjdhet.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 3000,
       note: "Kontakta oss för aktuella priser.",
     },
     {
@@ -95,7 +96,7 @@ export const business = {
       icon: "🎯",
       description: "Professionell löshår med fokus på kvalitet och kundnöjdhet.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 1650,
       note: "Kontakta oss för aktuella priser.",
     },
     {
